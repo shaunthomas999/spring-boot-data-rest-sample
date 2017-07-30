@@ -1,0 +1,4 @@
+$ cat .gitattributes
+.mvn/* linguist-vendored
+mvnw linguist-vendored=true
+mvnw.cmd linguist-vendored=true
