@@ -1,4 +1,4 @@
-package com.shaunthomas999.sms;
+package com.shaunthomas999.sma;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
@@ -16,7 +16,7 @@ public class Student {
 
     private String lastName;
 
-    private String rollNumnber;
+    private String rollNumber;
 
     private String className;
 
@@ -46,12 +46,12 @@ public class Student {
         this.lastName = lastName;
     }
 
-    public String getRollNumnber() {
-        return rollNumnber;
+    public String getRollNumber() {
+        return rollNumber;
     }
 
-    public void setRollNumnber(String rollNumnber) {
-        this.rollNumnber = rollNumnber;
+    public void setRollNumber(String rollNumber) {
+        this.rollNumber = rollNumber;
     }
 
     public String getClassName() {
@@ -76,7 +76,7 @@ public class Student {
                 "id=" + id +
                 ", firstName='" + firstName + '\'' +
                 ", lastName='" + lastName + '\'' +
-                ", rollNumnber='" + rollNumnber + '\'' +
+                ", rollNumnber='" + rollNumber + '\'' +
                 ", className='" + className + '\'' +
                 ", rank='" + rank + '\'' +
                 '}';

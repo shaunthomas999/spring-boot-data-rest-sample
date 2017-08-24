@@ -1,4 +1,4 @@
-package com.shaunthomas999.sms;
+package com.shaunthomas999.sma;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
