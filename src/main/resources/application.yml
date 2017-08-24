@@ -1,0 +1,26 @@
+server:
+    port: 8080
+
+spring:
+    main:
+        banner-mode: "off"
+    datasource:
+        platform: h2
+        driverClassName: org.h2.Driver
+        url: jdbc:h2:mem:studentdb;DB_CLOSE_ON_EXIT=FALSE;MODE=PostgreSQL
+        username: sa
+        password:
+    jpa:
+        hibernate:
+            ddl-auto: update
+        properties:
+            hibernate:
+                dialect: org.hibernate.dialect.H2Dialect
+        show-sql: false
+    jackson:
+        date-format: yyyy-MM-dd HH:mm:ss
+
+logging:
+    level:
+        org:
+            springframework: INFO
