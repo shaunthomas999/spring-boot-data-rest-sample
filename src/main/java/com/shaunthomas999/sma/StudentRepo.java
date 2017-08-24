@@ -1,4 +1,4 @@
-package com.shaunthomas999.sms;
+package com.shaunthomas999.sma;
 
 import org.springframework.data.repository.PagingAndSortingRepository;
 
