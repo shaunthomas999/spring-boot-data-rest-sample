@@ -1,4 +1,4 @@
-# Student Management API
+# Student Management API (SMA)
 
 Sample project for spring-data-rest with spring-boot 
 
