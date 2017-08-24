@@ -1,4 +1,4 @@
-# Student Management System (SMS)
+# Student Management API
 
 Sample project for spring-data-rest with spring-boot 
 
