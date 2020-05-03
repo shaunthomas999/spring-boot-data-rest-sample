@@ -6,13 +6,25 @@ Sample project for spring-data-rest with spring-boot
 
 * Java, spring-boot, spring-data-rest and H2 database
 
-## Build & Run
+## Run the application
 
-* `./mvnw clean spring-boot:run`
+### Prerequisite
+
+* Java 8+
+* Maven 3+
+
+### Build & Run
+
+* `mvn clean spring-boot:run`
 
 ## API end point
 
 * `http://localhost:8080/students/`
+
+## H2 Database
+
+* For connection - give `sa` as username and no password
+* Give schema name as `studentdb` which is specified in `application.yml` file
 
 ## Reference
 
